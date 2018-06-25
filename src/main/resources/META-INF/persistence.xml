@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="mx.lania.SAI_mavenproject1_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>mx.lania.SAI.entidades.Direccion</class>
+    <class>mx.lania.SAI.entidades.VisitaLici</class>
+    <class>mx.lania.SAI.entidades.ConsorcioProv</class>
+    <class>mx.lania.SAI.entidades.TipoContratacion</class>
+    <class>mx.lania.SAI.entidades.Consorcio</class>
+    <class>mx.lania.SAI.entidades.Proveedor</class>
+    <class>mx.lania.SAI.entidades.CaracterLicitacion</class>
+    <class>mx.lania.SAI.entidades.Adjudicacion</class>
+    <class>mx.lania.SAI.entidades.TipoConcurso</class>
+    <class>mx.lania.SAI.entidades.Propuesta</class>
+    <class>mx.lania.SAI.entidades.LicitacionCancelada</class>
+    <class>mx.lania.SAI.entidades.LicitacionProveedor</class>
+    <class>mx.lania.SAI.entidades.TipoPropuesta</class>
+    <class>mx.lania.SAI.entidades.EntidadFederativa</class>
+    <class>mx.lania.SAI.entidades.AgenteContratante</class>
+    <class>mx.lania.SAI.entidades.EmpresaAgente</class>
+    <class>mx.lania.SAI.entidades.GiroEconomico</class>
+    <class>mx.lania.SAI.entidades.EstadoLicitacion</class>
+    <class>mx.lania.SAI.entidades.Licitacion</class>
+    <class>mx.lania.SAI.entidades.Etapalicitacion</class>
+    <class>mx.lania.SAI.entidades.Etapa</class>
+    <class>mx.lania.SAI.entidades.Region</class>
+    <class>mx.lania.SAI.entidades.VistaLicitaciones</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/SAI"/>
+      <property name="javax.persistence.jdbc.user" value="sai"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="sai.2018"/>
+    </properties>
+  </persistence-unit>
+</persistence>

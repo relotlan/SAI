@@ -1,0 +1,14 @@
+## YAML Template.
+---
+
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/SAI
+        username: sai
+        password: sai.2018
+    jpa:
+        properties:
+            hibernate:
+                temp:
+                    use_jdbc_metadata_defaults: false
+        database-platform: org.hibernate.dialect.PostgreSQL9Dialect
